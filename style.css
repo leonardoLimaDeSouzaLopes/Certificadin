@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    236.85deg,
+    rgb(75, 200, 255) 27.26%,
+    rgb(0, 100, 155) 96.03%
+  );
+
+  font-family: "Roboto", sans-serif;
+}
+
+.dark {
+  background-image: url(https://media.istockphoto.com/vectors/pixel-art-night-starry-sky-vector-id1139914566?k=20&m=1139914566&s=170667a&w=0&h=NS2dQB9ZWPsmyKvDq81xG7wmgDgi2BximxCkBHGs5Xw=);
+}
+
+.quadradoBrancu {
+  background: #ecf4ff;
+  color: 1c1c1c;
+
+  margin: 64px;
+  padding: 64px;
+
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.dark .quadradoBrancu {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.cabessario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leonardoLimaDeSouzaLopes {
+  display: flex;
+}
+
+.fotoLeo {
+  border-radius: 360px;
+
+  max-height: 160px;
+}
+
+.descricao {
+  margin-left: 32px;
+}
+
+.descricao h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.descricao h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.mudaTema button {
+  align-self: flex-end;
+
+  background: #ecf4ff;
+
+  font-weight: 400;
+  font-size: 24px;
+
+  padding: 8px 16px;
+  border-radius: 100px;
+}
+
+.dark .mudaTema button {
+  background: #333439;
+  color: #f6f6f6;
+  border: 2px solid #f6f6f6;
+}
+
+.projetosLeo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(
+    236.85deg,
+    rgb(75, 200, 255) 27.26%,
+    rgb(0, 100, 155) 96.03%
+  );
+  color: 1c1c1c;
+
+  border-radius: 10px;
+
+  margin: 16px;
+  padding: 64px;
+}
+
+.dark .projetosLeo {
+  background: linear-gradient(
+    236.85deg,
+    rgb(30, 90, 170) 27.26%,
+    rgb(40, 25, 80) 96.03%
+  );
+}
+
+.projetosTitulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+
+  margin-bottom: 32px;
+}
+
+.projetos {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+}
